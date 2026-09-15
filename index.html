@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Aaditi — A Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="experience">
+      <canvas id="sky"></canvas>
+      <canvas id="leaves"></canvas>
+
+      <div id="sun"></div>
+      <div id="moon"></div>
+
+      <div id="landscape">
+        <div class="mist"></div>
+        <div class="tree tree-1"></div>
+        <div class="tree tree-2"></div>
+        <div class="tree tree-3"></div>
+        <div class="tree tree-4"></div>
+        <div class="ground"></div>
+      </div>
+
+      <div id="leaf-wipe"></div>
+
+      <section id="child-scene" class="scene">
+        <div class="photo-frame child-frame">
+          <img src="assets/childhood.jpg" alt="Childhood placeholder" />
+        </div>
+        <div class="child-copy">
+          <div class="date">16th of September 2008, 4:52 pm</div>
+          <p>
+            An angel was born, beginning a journey filled with kindness, love,
+            and warmth.
+          </p>
+        </div>
+      </section>
+
+      <section id="eighteen-scene" class="scene">
+        <div class="after">After 18 years</div>
+      </section>
+
+      <section id="present-scene" class="scene">
+        <div class="vines" aria-hidden="true">
+          <span class="vine v1"></span><span class="vine v2"></span
+          ><span class="vine v3"></span> <span class="leaf lv1"></span
+          ><span class="leaf lv2"></span><span class="leaf lv3"></span>
+          <span class="leaf lv4"></span><span class="leaf lv5"></span>
+        </div>
+
+        <div class="present-layout">
+          <div class="photo-frame current-frame">
+            <img src="assets/current.jpg" alt="Current placeholder" />
+          </div>
+
+          <div class="present-intro">
+            <p>
+              Through laughter.<br />
+              Through tears.<br />
+              Through victories.<br />
+              Through struggles.<br />
+              Through countless memories...
+            </p>
+            <p class="beautiful">
+              The little angel grew into someone truly beautiful.
+            </p>
+          </div>
+
+          <div class="letter">
+            <p class="today">Today...</p>
+            <p>That little angel is finally eighteen years old.</p>
+            <p class="birthday">Happy Birthday, Aaditi. <span>♥</span></p>
+          </div>
+        </div>
+      </section>
+
+      <div id="loading">A little story is about to begin...</div>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Continue Button -->
+    <a
+      id="continueBtn"
+      href="https://hellknight0055.github.io/page-3/"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 12px 24px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+      "
+    >
+      Continue &rarr;
+    </a>
+
+    <script>
+      setTimeout(function () {
+        var btn = document.getElementById("continueBtn");
+        if (btn) {
+          btn.style.display = "block";
+        }
+      }, 90000); // 90000 milliseconds = 90 seconds
+    </script>
+  </body>
+</html>
