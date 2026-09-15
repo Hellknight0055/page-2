@@ -403,7 +403,7 @@ function animate(t) {
       const date = childScene.querySelector(".date");
       const copy = childScene.querySelector(".child-copy p");
 
-      setText(date, "16th of September 2008, 4:52 pm", 1100);
+      setText(date, "16th of September 2008, 10:52 AM", 1100);
 
       setText(
         copy,
